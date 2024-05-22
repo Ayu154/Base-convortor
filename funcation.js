@@ -10,7 +10,7 @@ function convertBase() {
         resultElement.style.color = '#B00000';
         return;
     }
-    if (is(fromBase) || isNaN(toBase) || fromBase < 2 || fromBase > 36 || toBase < 2 || toBase > 36) {
+    if (isNaN(fromBase) || isNaN(toBase) || fromBase < 2 || fromBase > 36 || toBase < 2 || toBase > 36) {
         resultElement.textContent = "Please select valid bases!!";
         resultElement.style.color = '#B00000';
         return;
